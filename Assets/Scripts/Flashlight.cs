@@ -41,11 +41,7 @@ public class Flashlight : VRTK_InteractableObject {
     }
 
     public void SwitchOn(bool PlaySoundEffect = true) {
-        if (FlashlightMaterial != null)
-            FlashlightMaterial.EnableKeyword("_EMISSION");
-
-        if(FlashlightLight != null)
-            FlashlightLight.gameObject.SetActive(true);
+        StartCoroutine(SwitchOnLights());
 
         if (PlaySoundEffect && ToggleSound != null)
             ToggleSound.Play();
@@ -54,15 +50,31 @@ public class Flashlight : VRTK_InteractableObject {
     }
 
     public void SwitchOff(bool PlaySoundEffect = true) {
-        if (FlashlightMaterial != null)
-            FlashlightMaterial.DisableKeyword("_EMISSION");
-
-        if (FlashlightLight != null)
-            FlashlightLight.gameObject.SetActive(false);
+        StartCoroutine(SwitchOffLights());
 
         if (PlaySoundEffect && ToggleSound != null)
             ToggleSound.Play();
 
         IsFlashlightOn = false;
+    }
+
+    private IEnumerator SwitchOnLights() {
+        yield return new WaitForSeconds(0.2f);
+
+        if (FlashlightMaterial != null)
+            FlashlightMaterial.EnableKeyword("_EMISSION");
+
+        if (FlashlightLight != null)
+            FlashlightLight.gameObject.SetActive(true);
+    }
+
+    private IEnumerator SwitchOffLights() {
+        yield return new WaitForSeconds(0.2f);
+
+        if (FlashlightMaterial != null)
+            FlashlightMaterial.DisableKeyword("_EMISSION");
+
+        if (FlashlightLight != null)
+            FlashlightLight.gameObject.SetActive(false);
     }
 }
