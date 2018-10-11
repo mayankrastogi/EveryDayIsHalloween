@@ -2441,13 +2441,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: eeda6d41317f444b900e374895f14e95, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  autoPopulateObjectReferences: 1
+  autoPopulateObjectReferences: 0
   actualBoundaries: {fileID: 1245698792135356}
   actualHeadset: {fileID: 1030877015836274}
   actualLeftController: {fileID: 1876075911453984}
   actualRightController: {fileID: 1182843991247774}
-  modelAliasLeftController: {fileID: 1197155414681092}
-  modelAliasRightController: {fileID: 1900693783306028}
+  modelAliasLeftController: {fileID: 0}
+  modelAliasRightController: {fileID: 0}
   cachedSystemSDKInfo:
     baseTypeName: VRTK.SDK_BaseSystem
     fallbackTypeName: VRTK.SDK_FallbackSystem
@@ -3129,13 +3129,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: eeda6d41317f444b900e374895f14e95, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  autoPopulateObjectReferences: 1
+  autoPopulateObjectReferences: 0
   actualBoundaries: {fileID: 1054312893533856}
   actualHeadset: {fileID: 1837404795930702}
   actualLeftController: {fileID: 1124299553142080}
   actualRightController: {fileID: 1412034595845398}
-  modelAliasLeftController: {fileID: 1488125569649802}
-  modelAliasRightController: {fileID: 1493532561465308}
+  modelAliasLeftController: {fileID: 0}
+  modelAliasRightController: {fileID: 0}
   cachedSystemSDKInfo:
     baseTypeName: VRTK.SDK_BaseSystem
     fallbackTypeName: VRTK.SDK_FallbackSystem
