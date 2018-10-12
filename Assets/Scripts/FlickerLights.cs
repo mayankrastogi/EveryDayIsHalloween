@@ -7,8 +7,9 @@ public class FlickerLights : MonoBehaviour {
     public GameObject LightsContainer;
 
     public float MinimumPulseInterval = 0.01f;
-    public float MaximumPulseInterval = 0.2f;
-    public float PulseDuration = 1.0f;
+    public float MaximumPulseInterval = 0.1f;
+    public float PulseDuration = 0.8f;
+    public float TimeBetweenFlickers = 2.5f;
 
     public bool FlickerOnLoad = false;
 
@@ -17,6 +18,7 @@ public class FlickerLights : MonoBehaviour {
 
     private bool IsFlickering = false;
     private Light[] ChildLights;
+    private AudioSource[] ChildAudioSources;
 
 	// Use this for initialization
 	void Start () {
@@ -25,19 +27,24 @@ public class FlickerLights : MonoBehaviour {
         }
 
         ChildLights = GetComponentsInChildren<Light>();
+        ChildAudioSources = GetComponentsInChildren<AudioSource>();
 
 		if(FlickerOnLoad) {
             StartFlickering();
         }
 	}
 
-    public void StartFlickering() {
+    public void StartFlickering(bool once = false) {
         IsFlickering = true;
-        StartCoroutine(Flicker());
+        StartCoroutine(Flicker(once));
     }
 
     public void StopFlickering() {
         IsFlickering = false;
+    }
+
+    public void FlickerOnce() {
+        StartFlickering(true);
     }
 
     public void ToggleLights(bool switchOn) {
@@ -52,11 +59,21 @@ public class FlickerLights : MonoBehaviour {
         }
     }
 
-    IEnumerator Flicker() {
+    public void PlaySFX() {
+        foreach(AudioSource audioSource in ChildAudioSources) {
+            audioSource.Play();
+        }
+    }
+
+    IEnumerator Flicker(bool once = false) {
         float durationTimer = 0.0f;
 
         while (IsFlickering) {
             float intervalTimer;
+
+            if(durationTimer == 0.0f) {
+                PlaySFX();
+            }
 
             intervalTimer = Random.Range(MinimumPulseInterval, MaximumPulseInterval);
             durationTimer += intervalTimer;
@@ -69,8 +86,13 @@ public class FlickerLights : MonoBehaviour {
             yield return new WaitForSeconds(intervalTimer);
 
             if(durationTimer >= PulseDuration) {
-                yield return new WaitForSeconds(PulseDuration);
+                yield return new WaitForSeconds(TimeBetweenFlickers);
                 durationTimer = 0.0f;
+            }
+
+            if(once) {
+                StopFlickering();
+                break;
             }
         }
     }
