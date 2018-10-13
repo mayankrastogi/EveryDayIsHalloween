@@ -11,6 +11,7 @@ public class FlickerLights : MonoBehaviour {
     public float PulseDuration = 0.8f;
     public float TimeBetweenFlickers = 2.5f;
 
+    public bool StayOnWhenNotFlickering = true;
     public bool FlickerOnLoad = false;
 
     public bool FlickerFlashlight = true;
@@ -77,12 +78,12 @@ public class FlickerLights : MonoBehaviour {
 
             intervalTimer = Random.Range(MinimumPulseInterval, MaximumPulseInterval);
             durationTimer += intervalTimer;
-            ToggleLights(false);
+            ToggleLights(!StayOnWhenNotFlickering);
             yield return new WaitForSeconds(intervalTimer);
 
             intervalTimer = Random.Range(MinimumPulseInterval, MaximumPulseInterval);
             durationTimer += intervalTimer;
-            ToggleLights(true);
+            ToggleLights(StayOnWhenNotFlickering);
             yield return new WaitForSeconds(intervalTimer);
 
             if(durationTimer >= PulseDuration) {
