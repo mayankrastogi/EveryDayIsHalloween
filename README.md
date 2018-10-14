@@ -15,6 +15,9 @@ Books: https://assetstore.unity.com/packages/3d/props/furniture/toon-furniture-8
 Wall Left: Created on our own <br/>
 Wall Right: Created on our own <br/>
 Living room Wall: Created on our own <br/>
+Sofa Chair: https://assetstore.unity.com/packages/3d/props/furniture/toon-furniture-88740 <br/>
+Pillow 1: https://assetstore.unity.com/packages/3d/props/furniture/toon-furniture-88740 <br/>
+Pillow 2: https://assetstore.unity.com/packages/3d/props/furniture/toon-furniture-88740 <br/>
 
 
 Important Asset Links: br/>
