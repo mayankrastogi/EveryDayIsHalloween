@@ -22,6 +22,10 @@ Picture Frame Left: Created on our own <br/>
 Picture Frame Right: Created on our own <br/>
 ScaryImage 1: https://www.google.com/search?q=Scary+Images&rlz=1C1CHBF_enUS816US816&source=lnms&tbm=isch&sa=X&ved=0ahUKEwiXse-Qy4feAhUH94MKHSjiCj4Q_AUIDigB&biw=1366&bih=608#imgrc=l5h3XSzZ8aU8uM:<br/>
 Scary Image 2: https://www.google.com/search?q=Scary+Images&rlz=1C1CHBF_enUS816US816&source=lnms&tbm=isch&sa=X&ved=0ahUKEwiXse-Qy4feAhUH94MKHSjiCj4Q_AUIDigB&biw=1366&bih=608#imgrc=E2RnRL_J4OUqDM:<br/>
+Zombie Character: https://www.mixamo.com/#/?page=1&query=zombie&type=Motion%2CMotionPack <br/>
+Scary Image 3: https://www.google.com/search?q=Scary+Images&rlz=1C1CHBF_enUS816US816&source=lnms&tbm=isch&sa=X&ved=0ahUKEwiB5Pfy9IveAhWM2YMKHbrrD_wQ_AUIDigB&biw=1366&bih=608#imgrc=VxpwrnZ0uJzoXM: <br/>
+Blood: https://assetstore.unity.com/packages/2d/textures-materials/blood-splatter-decal-package-7518 <br/>
+Zombie 2: https://www.mixamo.com/#/?page=1&query=zombie&type=Character <br/>
 
 
 Important Asset Links: <br/>
