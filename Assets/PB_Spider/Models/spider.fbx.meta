@@ -743,11 +743,11 @@ ModelImporter:
       takeName: die
       firstFrame: 151
       lastFrame: 165
-      wrapMode: 0
+      wrapMode: 2
       orientationOffsetY: 0
       level: 0
       cycleOffset: 0
-      loop: 0
+      loop: 1
       hasAdditiveReferencePose: 0
       loopTime: 0
       loopBlend: 0
