@@ -236,7 +236,7 @@ MonoBehaviour:
   PulseDuration: 0.8
   TimeBetweenFlickers: 2.5
   StayOnWhenNotFlickering: 1
-  FlickerOnLoad: 1
+  FlickerOnLoad: 0
   FlickerFlashlight: 0
   FlashlightObject: {fileID: 566864424}
 --- !u!4 &317901908
@@ -771,7 +771,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 4676349847409970, guid: 99f118b380c1d34429c5b6bade08ec6b, type: 2}
       propertyPath: m_LocalPosition.y
-      value: 2.6
+      value: 2.691
       objectReference: {fileID: 0}
     - target: {fileID: 4676349847409970, guid: 99f118b380c1d34429c5b6bade08ec6b, type: 2}
       propertyPath: m_LocalPosition.z
