@@ -40,6 +40,7 @@ Sink: https://assetstore.unity.com/packages/3d/props/old-kitchen-assets-71374 <b
 Cupboard: Made by us. <br/>
 ceiling light: https://assetstore.unity.com/packages/3d/props/old-kitchen-assets-71374 <br/>
 Jill:https://www.mixamo.com/#/?page=1&type=Motion%2CMotionPack <br/>
+skull: https://sketchfab.com/models/1a9db900738d44298b0bc59f68123393#download<br/>
 
 Cranuim: https://sketchfab.com/models/c1544018c70b483a818d2034d8909105 <br/>
 Cranium 2: https://sketchfab.com/models/c44b33f87ca2400ebcf9014260215ed2 <br/>
