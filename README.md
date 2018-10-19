@@ -1,6 +1,25 @@
 # EveryDayIsHalloween
 Every Day is Halloween is a Virtual Reality Funhouse App made using Unity and VRTK
 
+Bathroom Scene:
+Zombie Kicking Character:https://www.mixamo.com/#/?page=1&type=Motion%2CMotionPack
+Candle: https://sketchfab.com/models/f9ed3b934fa34ca1847994470ce5bdc6
+Posion Can: Made by us.
+Bottle: Made by us.
+Hammer: Made by us.
+Cup: Made by us.
+Barrel: Made by us.
+Barrel textures: gametextures.com
+Bar Table:https://assetstore.unity.com/packages/3d/props/furniture/medieval-tavern-pack-112546
+Bar stools:https://assetstore.unity.com/packages/3d/props/furniture/medieval-tavern-pack-112546
+Chair: https://assetstore.unity.com/packages/3d/props/furniture/medieval-tavern-pack-112546
+Circular Table:https://assetstore.unity.com/packages/3d/props/furniture/medieval-tavern-pack-112546
+Square Table: https://assetstore.unity.com/packages/3d/props/furniture/small-pack-furniture-56628
+Lumpy Plaster Wall: https://beta.gametextures.com/freebies/380631
+Beer Jugs:https://assetstore.unity.com/packages/3d/props/food/rpg-food-drinks-pack-121067
+Vine Jug:https://assetstore.unity.com/packages/3d/props/food/rpg-food-drinks-pack-121067
+Wine Bottle:https://assetstore.unity.com/packages/3d/props/food/rpg-food-drinks-pack-121067
+
 Assets:
 Living Room Scene:
 
