@@ -31,6 +31,20 @@ Book: Created on Own.<br/>
 Spider Web Left Wall: https://opengameart.org/content/spider-webs <br/>
 Spider Web Right Wall: https://opengameart.org/content/spider-webs <br/>
 
+Joker Lady: https://sketchfab.com/search?features=downloadable&q=scary&sort_by=-pertinence&type=models <br/>
+Scary Doll: https://sketchfab.com/models/3f068f4f36694db2a17f22b59bb62f70#download <br/>
+Baby Head: https://sketchfab.com/models/46cf83c79c944207a1923105a1c38726 <br/>
+Scary Skull: https://sketchfab.com/models/46cf83c79c944207a1923105a1c38726  High Poly <br/> 
+Circus Baby Doll: https://sketchfab.com/models/46cf83c79c944207a1923105a1c38726 <br/>
+Vampire Head: https://sketchfab.com/models/3286f165897e4781bc03c024b45e12f5?ref=related <br/>
+Gargoyle: https://sketchfab.com/models/a413444edfe941b589df0510ddbd2a61#download<br/>
+Gargoyle Head Sculpture: https://sketchfab.com/models/a413444edfe941b589df0510ddbd2a61#download <br/>
+Geisha Mask:https://sketchfab.com/models/0279c00c98d1475da474c53f17f3747b#download <br/>
+Butcher Knife: https://sketchfab.com/models/a8677d9c7a5b43fe966ac48d2798dad2#download<br/>
+Porcilin Mask Blood: https://sketchfab.com/models/596d7fbddfdd4cbab5a81878e1bd7741<br/>
+Bed of Torture: https://sketchfab.com/models/c7bb61df8d5942d88dc5e39808b1bce4#download <br/>
+Axe with Blood: https://sketchfab.com/models/c7bb61df8d5942d88dc5e39808b1bce4#download<br/>
+
 
 Important Asset Links: <br/>
 Spider Webs: https://opengameart.org/content/spider-webs <br/>
