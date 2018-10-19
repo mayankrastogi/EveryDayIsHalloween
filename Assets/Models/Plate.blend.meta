@@ -1,22 +1,22 @@
 fileFormatVersion: 2
-guid: e3f3adb2c823cdf45981248a0cefccd7
+guid: 7c8cd8668e2d14242bc795df58e3fd9e
 ModelImporter:
   serializedVersion: 23
   fileIDToRecycleName:
     100000: //RootNode
     400000: //RootNode
-    2100000: Ceramic__CeramicPlate
+    2100000: Plate__CeramicPlate
     2300000: //RootNode
     3300000: //RootNode
-    4300000: CeramicPlate
+    4300000: Plate
     7400000: Default Take
     9500000: //RootNode
   externalObjects:
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
-      name: Ceramic__CeramicPlate
-    second: {fileID: 2100000, guid: 3a45b3afa98def7418cf86b9a62cd09f, type: 2}
+      name: Plate__CeramicPlate
+    second: {fileID: 2100000, guid: b6d53cda439c1e7449a579f8d0b123ae, type: 2}
   materials:
     importMaterials: 1
     materialName: 0
