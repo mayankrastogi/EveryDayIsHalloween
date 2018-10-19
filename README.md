@@ -5,13 +5,13 @@ Assets:
 Living Room Scene:
 
 TV: https://assetstore.unity.com/packages/3d/props/electronics/old-television-pbr-free-101886 <br/>
-New TV: Created on own.
+New TV: Created on own.<br/>
 Table: Created on our own <br/>
 Window Left: https://assetstore.unity.com/packages/3d/props/furniture/medieval-tavern-pack-112546 <br/>
 Window Right: https://assetstore.unity.com/packages/3d/props/furniture/medieval-tavern-pack-112546 <br/>
 Lamp: https://assetstore.unity.com/packages/3d/props/furniture/medieval-tavern-pack-112546 <br/>
 House Plant: https://assetstore.unity.com/packages/3d/props/furniture/toon-furniture-88740 <br/>
-Spider: <br/>
+Spider: https://assetstore.unity.com/packages/3d/characters/animals/animated-spider-22986 <br/>
 Books: https://assetstore.unity.com/packages/3d/props/furniture/toon-furniture-88740 <br/>
 Wall Left: Created on our own <br/>
 Wall Right: Created on our own <br/>
