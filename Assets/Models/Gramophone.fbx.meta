@@ -1,0 +1,195 @@
+fileFormatVersion: 2
+guid: b5ff0e3e7aebead4d8e007dd6ba30f7b
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: Box001
+    100002: Box003
+    100004: Cylinder001
+    100006: Cylinder002
+    100008: Cylinder004
+    100010: //RootNode
+    100012: Group001
+    100014: Group002
+    100016: Group003
+    100018: Line001
+    100020: Line002
+    100022: Line003
+    100024: Object002
+    100026: Object004
+    100028: Object005
+    100030: Object006
+    100032: Object008
+    100034: Object009
+    100036: Plane002
+    100038: Plane003
+    100040: Plane004
+    100042: Sphere001
+    400000: Box001
+    400002: Box003
+    400004: Cylinder001
+    400006: Cylinder002
+    400008: Cylinder004
+    400010: //RootNode
+    400012: Group001
+    400014: Group002
+    400016: Group003
+    400018: Line001
+    400020: Line002
+    400022: Line003
+    400024: Object002
+    400026: Object004
+    400028: Object005
+    400030: Object006
+    400032: Object008
+    400034: Object009
+    400036: Plane002
+    400038: Plane003
+    400040: Plane004
+    400042: Sphere001
+    2100000: 'Material #42'
+    2100002: 'Material #28'
+    2100004: 'Material #26'
+    2100006: 'Material #29'
+    2100008: 'Material #41'
+    2100010: 'Material #27'
+    2300000: Box001
+    2300002: Box003
+    2300004: Cylinder001
+    2300006: Cylinder002
+    2300008: Cylinder004
+    2300010: Line001
+    2300012: Line002
+    2300014: Line003
+    2300016: Object002
+    2300018: Object004
+    2300020: Object005
+    2300022: Object006
+    2300024: Object008
+    2300026: Object009
+    2300028: Plane002
+    2300030: Plane003
+    2300032: Plane004
+    2300034: Sphere001
+    3300000: Box001
+    3300002: Box003
+    3300004: Cylinder001
+    3300006: Cylinder002
+    3300008: Cylinder004
+    3300010: Line001
+    3300012: Line002
+    3300014: Line003
+    3300016: Object002
+    3300018: Object004
+    3300020: Object005
+    3300022: Object006
+    3300024: Object008
+    3300026: Object009
+    3300028: Plane002
+    3300030: Plane003
+    3300032: Plane004
+    3300034: Sphere001
+    4300000: Line001
+    4300002: Box001
+    4300004: Box003
+    4300006: Cylinder004
+    4300008: Plane002
+    4300010: Sphere001
+    4300012: Plane003
+    4300014: Object006
+    4300016: Plane004
+    4300018: Line003
+    4300020: Object004
+    4300022: Object008
+    4300024: Object002
+    4300026: Object005
+    4300028: Cylinder002
+    4300030: Object009
+    4300032: Line002
+    4300034: Cylinder001
+    7400000: Take 001
+    9500000: //RootNode
+    2186277476908879412: ImportLogs
+  externalObjects: {}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    previousCalculatedGlobalScale: 1
+    hasPreviousCalculatedGlobalScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 0
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
