@@ -35,6 +35,21 @@ TV: https://assetstore.unity.com/packages/3d/props/electronics/old-television-pb
 Toon Furniture: https://assetstore.unity.com/packages/3d/props/furniture/toon-furniture-88740 <br/>
 Medeival Taveren Pack:https://assetstore.unity.com/packages/3d/props/furniture/medieval-tavern-pack-112546 <br/>
 
+Fridge:https://sketchfab.com/models/fd09e76229824435b860af6c0fa29d95<br/>
+Sink: https://assetstore.unity.com/packages/3d/props/old-kitchen-assets-71374 <br/>
+Cupboard: Made by us. <br/>
+ceiling light: https://assetstore.unity.com/packages/3d/props/old-kitchen-assets-71374 <br/>
+Jill:https://www.mixamo.com/#/?page=1&type=Motion%2CMotionPack <br/>
+skull: https://sketchfab.com/models/1a9db900738d44298b0bc59f68123393#download<br/>
+skeleton: https://sketchfab.com/models/ef853171dc334d3b8cdf93504a1f7e00 <br/>
+heart: https://sketchfab.com/models/2fbba4bce48b47d89eac0f525d59ed2e <br/>
+Pot: Created on Own.
+Pot Material:https://assetstore.unity.com/packages/3d/props/old-kitchen-assets-71374 <br/>
+Snakes:https://sketchfab.com/models/47b9bdcdaf3242469afd7adaf97dfcd4?ref=related#download <br/>
+Pan: Created on own.
+
+
+
 Cranuim: https://sketchfab.com/models/c1544018c70b483a818d2034d8909105 <br/>
 Cranium 2: https://sketchfab.com/models/c44b33f87ca2400ebcf9014260215ed2 <br/>
 Cranium 3: https://sketchfab.com/models/e66b2678594a4776930556e29e20d5b9 <br/>
