@@ -27,7 +27,9 @@ Zombie Character: https://www.mixamo.com/#/?page=1&query=zombie&type=Motion%2CMo
 Scary Image 3: https://www.google.com/search?q=Scary+Images&rlz=1C1CHBF_enUS816US816&source=lnms&tbm=isch&sa=X&ved=0ahUKEwiB5Pfy9IveAhWM2YMKHbrrD_wQ_AUIDigB&biw=1366&bih=608#imgrc=VxpwrnZ0uJzoXM: <br/>
 Blood: https://assetstore.unity.com/packages/2d/textures-materials/blood-splatter-decal-package-7518 <br/>
 Zombie 2: https://www.mixamo.com/#/?page=1&query=zombie&type=Character <br/>
-Book: Created on Own.
+Book: Created on Own.<br/>
+Spider Web Left Wall: https://opengameart.org/content/spider-webs <br/>
+Spider Web Right Wall: https://opengameart.org/content/spider-webs <br/>
 
 
 Important Asset Links: <br/>
