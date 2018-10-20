@@ -9,6 +9,7 @@ public class TVPlayerScript : MonoBehaviour {
     public GameObject tvScreen;
     bool isvideoPlaying = false;
     VideoPlayer vp;
+    public AudioSource backgroundMusic;
 	// Use this for initialization
 
     void Awake()
@@ -26,21 +27,34 @@ public class TVPlayerScript : MonoBehaviour {
 
     private void OnTriggerEnter(Collider Other)
     {
-        Debug.Log("Trigger Entered");
-        if(isvideoPlaying==false)
+        //Debug.Log("Trigger Entered");
+        //Debug.Log("Name is " + Other.gameObject.name + " .");
+        //[VRTK][AUTOGEN][BodyColliderContainer]
+        if(Other.gameObject.name.Equals("[VRTK][AUTOGEN][HeadsetColliderContainer]"))
         {
-            isvideoPlaying = true;
-            vp.Play();
+            Debug.Log("Trigger Entered");
+            if(isvideoPlaying==false)
+            {
+                backgroundMusic.Pause();
+                vp.Play();
+                isvideoPlaying = true;
+            }
         }
 
     }
     private void OnTriggerExit(Collider Other)
     {
-        Debug.Log("Trigger Exited");
-        if (isvideoPlaying == true)
+        //Debug.Log("Trigger Exited");
+        //[VRTK][AUTOGEN][BodyColliderContainer]
+        if(Other.gameObject.name.Equals("[VRTK][AUTOGEN][HeadsetColliderContainer]"))
         {
-            isvideoPlaying = false;
-            vp.Pause();
+            Debug.Log("Trigger Exited");
+            if (isvideoPlaying == true)
+            {
+                vp.Pause();
+                backgroundMusic.Play();
+                isvideoPlaying = false;
+            }
         }
     }
 
