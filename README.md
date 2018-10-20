@@ -2,26 +2,28 @@
 Every Day is Halloween is a Virtual Reality Funhouse App made using Unity and VRTK
 
 Bathroom Scene:
-Zombie Kicking Character:https://www.mixamo.com/#/?page=1&type=Motion%2CMotionPack
-Candle: https://sketchfab.com/models/f9ed3b934fa34ca1847994470ce5bdc6
-Posion Can: Made by us.
-Bottle: Made by us.
-Hammer: Made by us.
-Cup: Made by us.
-Barrel: Made by us.
-Barrel textures: gametextures.com
-Bar Table:https://assetstore.unity.com/packages/3d/props/furniture/medieval-tavern-pack-112546
-Bar stools:https://assetstore.unity.com/packages/3d/props/furniture/medieval-tavern-pack-112546
-Chair: https://assetstore.unity.com/packages/3d/props/furniture/medieval-tavern-pack-112546
-Circular Table:https://assetstore.unity.com/packages/3d/props/furniture/medieval-tavern-pack-112546
-Square Table: https://assetstore.unity.com/packages/3d/props/furniture/small-pack-furniture-56628
-Lumpy Plaster Wall: https://beta.gametextures.com/freebies/380631
-Beer Jugs:https://assetstore.unity.com/packages/3d/props/food/rpg-food-drinks-pack-121067
-Vine Jug:https://assetstore.unity.com/packages/3d/props/food/rpg-food-drinks-pack-121067
-Wine Bottle:https://assetstore.unity.com/packages/3d/props/food/rpg-food-drinks-pack-121067
-Sounds: 
+Zombie Kicking Character:https://www.mixamo.com/#/?page=1&type=Motion%2CMotionPack <br/>
+Candle: https://sketchfab.com/models/f9ed3b934fa34ca1847994470ce5bdc6 < br/>
+Posion Can on Window ciel: Made by us. <br/>
+Bottle on Bar Table: Made by us. <br/>
+Hammer on Circlular Table: Made by us. <br/>
+Cup on on Circlular Table : Made by us. <br/>
+Plate on on Circlular Table : Made by us. <br/>
+Plate on on Circlular Table : Made by us. <br/>
+Barrel: Made by us. <br/>
+Barrel textures: gametextures.com <br/>
+Bar Table:https://assetstore.unity.com/packages/3d/props/furniture/medieval-tavern-pack-112546 <br/>
+Bar stools:https://assetstore.unity.com/packages/3d/props/furniture/medieval-tavern-pack-112546 <br/>
+Chair: https://assetstore.unity.com/packages/3d/props/furniture/medieval-tavern-pack-112546 <br/>
+Circular Table:https://assetstore.unity.com/packages/3d/props/furniture/medieval-tavern-pack-112546 <br/>
+Square Table: https://assetstore.unity.com/packages/3d/props/furniture/small-pack-furniture-56628 <br/>
+Lumpy Plaster Wall: https://beta.gametextures.com/freebies/380631 <br/>
+Beer Jugs:https://assetstore.unity.com/packages/3d/props/food/rpg-food-drinks-pack-121067 <br/>
+Vine Jug:https://assetstore.unity.com/packages/3d/props/food/rpg-food-drinks-pack-121067 <br/>
+Wine Bottle:https://assetstore.unity.com/packages/3d/props/food/rpg-food-drinks-pack-121067 <br/>
+Sounds: <br/>
 background Music: https://opengameart.org/content/haunted-woods-horror-drone <br/>
-screams Zombie: https://opengameart.org/content/screaming<br/>
+Intermittent screaming Sound : https://opengameart.org/content/screaming<br/>
 
 Assets:
 Living Room Scene:
