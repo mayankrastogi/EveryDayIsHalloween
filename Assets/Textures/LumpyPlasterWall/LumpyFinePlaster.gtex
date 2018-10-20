@@ -1,0 +1,100 @@
+﻿{
+	"material":
+	{
+		"name": "LumpyFinePlaster",
+		"shader": "gt_product",
+		"type": "material",
+		"tiling": 1,
+		"texturemaps":
+		{
+			"basecolor": 
+			{
+				"path": "Textures/LumpyFinePlaster_basecolor.png",
+				"maxsize": 2048,
+				"compression": "default",
+				"colorchannel": "rgb",
+				"colorspace": "srgb"
+			},
+			"roughness":
+			{
+				"path": "Textures/LumpyFinePlaster_roughness.png",
+				"maxsize": 2048,
+				"compression": "default",
+				"colorchannel": "rgb",
+				"colorspace": "srgb"
+			},
+			"metallic": 
+			{
+				"path": "Textures/LumpyFinePlaster_metallic.png",
+				"maxsize": 2048,
+				"compression": "default",
+				"colorchannel": "rgb",
+				"colorspace": "srgb"
+			},
+			"albedo": 
+			{
+				"path": "Textures/LumpyFinePlaster_albedo.png",
+				"maxsize": 2048,
+				"compression": "default",
+				"colorchannel": "rgb",
+				"colorspace": "srgb"
+			},
+			"specular":
+			{
+				"path": "Textures/LumpyFinePlaster_specular.png",
+				"maxsize": 2048,
+				"compression": "default",
+				"colorchannel": "rgb",
+				"colorspace": "srgb"
+			},
+			"glossiness":
+			{
+				"path": "Textures/LumpyFinePlaster_glossiness.png",
+				"maxsize": 2048,
+				"compression": "default",
+				"colorchannel": "rgb",
+				"colorspace": "srgb"
+			},
+			"normal":
+			{
+				"path": "Textures/LumpyFinePlaster_normal.png",
+				"maxsize": 2048,
+				"compression": "normal",
+				"colorchannel": "rgb",
+				"colorspace": "srgb"
+			},
+			"ambientocclusion":
+			{
+				"path": "Textures/LumpyFinePlaster_ambientocclusion.png",
+				"maxsize": 2048,
+				"compression": "default",
+				"colorchannel": "rgb",
+				"colorspace": "srgb"
+			},
+			"height":
+			{
+				"path": "Textures/LumpyFinePlaster_height.png",
+				"maxsize": 2048,
+				"compression": "default",
+				"colorchannel": "rgb",
+				"colorspace": "srgb"
+			},
+			"emissive":
+			{
+				"path": "Textures/LumpyFinePlaster_emissive.png",
+				"maxsize": 2048,
+				"compression": "default",
+				"colorchannel": "rgb",
+				"colorspace": "srgb"
+			},
+			"opacity":
+			{
+				"path": "Textures/LumpyFinePlaster_opacity.png",
+				"maxsize": 2048,
+				"compression": "default",
+				"colorchannel": "rgb",
+				"colorspace": "srgb"
+			}
+		}
+	}
+}
