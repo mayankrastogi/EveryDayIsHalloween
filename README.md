@@ -19,6 +19,9 @@ Lumpy Plaster Wall: https://beta.gametextures.com/freebies/380631
 Beer Jugs:https://assetstore.unity.com/packages/3d/props/food/rpg-food-drinks-pack-121067
 Vine Jug:https://assetstore.unity.com/packages/3d/props/food/rpg-food-drinks-pack-121067
 Wine Bottle:https://assetstore.unity.com/packages/3d/props/food/rpg-food-drinks-pack-121067
+Sounds: 
+background Music: https://opengameart.org/content/haunted-woods-horror-drone <br/>
+screams Zombie: https://opengameart.org/content/screaming<br/>
 
 Assets:
 Living Room Scene:
