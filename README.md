@@ -2,23 +2,37 @@
 Every Day is Halloween is a Virtual Reality Funhouse App made using Unity and VRTK
 
 Bathroom Scene:
-Zombie Kicking Character:https://www.mixamo.com/#/?page=1&type=Motion%2CMotionPack
-Candle: https://sketchfab.com/models/f9ed3b934fa34ca1847994470ce5bdc6
-Posion Can: Made by us.
-Bottle: Made by us.
-Hammer: Made by us.
-Cup: Made by us.
-Barrel: Made by us.
-Barrel textures: gametextures.com
-Bar Table:https://assetstore.unity.com/packages/3d/props/furniture/medieval-tavern-pack-112546
-Bar stools:https://assetstore.unity.com/packages/3d/props/furniture/medieval-tavern-pack-112546
-Chair: https://assetstore.unity.com/packages/3d/props/furniture/medieval-tavern-pack-112546
-Circular Table:https://assetstore.unity.com/packages/3d/props/furniture/medieval-tavern-pack-112546
-Square Table: https://assetstore.unity.com/packages/3d/props/furniture/small-pack-furniture-56628
-Lumpy Plaster Wall: https://beta.gametextures.com/freebies/380631
-Beer Jugs:https://assetstore.unity.com/packages/3d/props/food/rpg-food-drinks-pack-121067
-Vine Jug:https://assetstore.unity.com/packages/3d/props/food/rpg-food-drinks-pack-121067
-Wine Bottle:https://assetstore.unity.com/packages/3d/props/food/rpg-food-drinks-pack-121067
+Zombie Kicking Character:https://www.mixamo.com/#/?page=1&type=Motion%2CMotionPack <br/>
+Candle: https://sketchfab.com/models/f9ed3b934fa34ca1847994470ce5bdc6 < br/>
+Posion Can on Window ciel: Made by us. <br/>
+Bottle on Bar Table: Made by us. <br/>
+Hammer on Circlular Table: Made by us. <br/>
+Cup on on Circlular Table : Made by us. <br/>
+Plate on on Circlular Table : Made by us. <br/>
+Plate on on Circlular Table : Made by us. <br/>
+Barrel: Made by us. <br/>
+Barrel textures: gametextures.com <br/>
+Bar Table:https://assetstore.unity.com/packages/3d/props/furniture/medieval-tavern-pack-112546 <br/>
+Bar stools:https://assetstore.unity.com/packages/3d/props/furniture/medieval-tavern-pack-112546 <br/>
+Chair: https://assetstore.unity.com/packages/3d/props/furniture/medieval-tavern-pack-112546 <br/>
+Circular Table:https://assetstore.unity.com/packages/3d/props/furniture/medieval-tavern-pack-112546 <br/>
+Square Table: https://assetstore.unity.com/packages/3d/props/furniture/small-pack-furniture-56628 <br/>
+Lumpy Plaster Wall: https://beta.gametextures.com/freebies/380631 <br/>
+Beer Jugs:https://assetstore.unity.com/packages/3d/props/food/rpg-food-drinks-pack-121067 <br/>
+Vine Jug:https://assetstore.unity.com/packages/3d/props/food/rpg-food-drinks-pack-121067 <br/>
+Wine Bottle:https://assetstore.unity.com/packages/3d/props/food/rpg-food-drinks-pack-121067 <br/>
+Creepy doll head:https://sketchfab.com/models/05466f98b03e4a6bb35ee0d89d02ed18<br/>
+Joker Head: https://sketchfab.com/models/36ae9d7d193d49f8bc70dc109edc56c0<br/>
+Door: https://assetstore.unity.com/packages/3d/props/furniture/medieval-tavern-pack-112546<br/>
+Lizard animated: https://sketchfab.com/models/74a4ff6e46f94195acbf74b858f9e99a<br/> 
+
+Sounds: <br/>
+background Music: https://opengameart.org/content/haunted-woods-horror-drone <br/>
+Intermittent screaming Sound : https://opengameart.org/content/screaming<br/>
+bottle break: https://opengameart.org/content/breaking-bottle <br/>
+knocking on the door: https://opengameart.org/content/12-3-knocks-wooden-doors <br/>
+Creeking Door:
+
 
 Assets:
 Living Room Scene:
@@ -49,10 +63,23 @@ Zombie 2: https://www.mixamo.com/#/?page=1&query=zombie&type=Character <br/>
 Book: Created on Own.<br/>
 Spider Web Left Wall: https://opengameart.org/content/spider-webs <br/>
 Spider Web Right Wall: https://opengameart.org/content/spider-webs <br/>
+Scary Doll on Couch: https://sketchfab.com/models/3f068f4f36694db2a17f22b59bb62f70<br/>
+Vase:https://assetstore.unity.com/packages/3d/props/furniture/toon-furniture-88740<br/>
+Calculator in drawer: https://assetstore.unity.com/packages/3d/props/office-supplies-low-poly-105519<br/>
+Hole Puncher: https://assetstore.unity.com/packages/3d/props/office-supplies-low-poly-105519 <br/>
+yellow Pencil: https://assetstore.unity.com/packages/3d/props/office-supplies-low-poly-105519 <br/>
+Sounds: <br/>
+Piano Background Music: https://opengameart.org/content/haunting-piano <br/>
+Zombie Screaming Sound:https://opengameart.org/content/zombies-sound-pack <br/>
+Drawer Opening Sound:
+Video:https://www.youtube.com/watch?v=awI5OZowRmQ&t=101s <br/>
+
+
+
 
 Joker Lady: https://sketchfab.com/search?features=downloadable&q=scary&sort_by=-pertinence&type=models <br/>
 Scary Doll: https://sketchfab.com/models/3f068f4f36694db2a17f22b59bb62f70#download <br/>
-Baby Head: https://sketchfab.com/models/46cf83c79c944207a1923105a1c38726 <br/>
+Creepy Baby Head: https://sketchfab.com/models/05466f98b03e4a6bb35ee0d89d02ed18#download <br/>
 Scary Skull: https://sketchfab.com/models/46cf83c79c944207a1923105a1c38726  High Poly <br/> 
 Circus Baby Doll: https://sketchfab.com/models/46cf83c79c944207a1923105a1c38726 <br/>
 Vampire Head: https://sketchfab.com/models/3286f165897e4781bc03c024b45e12f5?ref=related <br/>
@@ -104,6 +131,8 @@ Potion Big: https://assetstore.unity.com/packages/3d/props/food/rpg-food-drinks-
 Potion Small: https://assetstore.unity.com/packages/3d/props/food/rpg-food-drinks-pack-121067<br/>
 Heart: https://sketchfab.com/models/fc47278a60aa4e8eb2a0f49dd7ac21df <br/> or https://sketchfab.com/models/5fd275ab07584e118289c7cc28a6bbac#download <br/>
 Adidas Image For Material: https://www.google.com/search?rlz=1C1CHBF_enUS816US816&biw=1366&bih=608&tbm=isch&sa=1&ei=62_JW8z4F8OwtgX6jKi4DA&q=adidas+textures&oq=adidas+textures&gs_l=img.3...2348.4517..4938...0.0..0.66.512.9......1....1..gws-wiz-img.......0j0i67j0i30j0i8i30j0i24.lqFtE2mo1VE#imgrc=62wGP5yWLoBeRM:<br/>
+
+Lungs With Animation: https://sketchfab.com/models/b2c33d70ba1f4c08a477943b7aed7093?ref=related<br/>
 
 Rats:
 Cockroach:

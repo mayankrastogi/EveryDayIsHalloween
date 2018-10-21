@@ -6,6 +6,7 @@ TagManager:
   tags:
   - WorldContainer
   - ClimbableEnvironment
+  - BabyBlock
   layers:
   - Default
   - TransparentFX
