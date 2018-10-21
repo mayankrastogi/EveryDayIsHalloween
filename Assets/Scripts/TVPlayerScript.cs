@@ -28,11 +28,11 @@ public class TVPlayerScript : MonoBehaviour {
     private void OnTriggerEnter(Collider Other)
     {
         //Debug.Log("Trigger Entered");
-        //Debug.Log("Name is " + Other.gameObject.name + " .");
+        Debug.Log("Name is " + Other.gameObject.name + " .");
         //[VRTK][AUTOGEN][BodyColliderContainer]
         if(Other.gameObject.name.Equals("[VRTK][AUTOGEN][HeadsetColliderContainer]"))
         {
-            Debug.Log("Trigger Entered");
+            //Debug.Log("Trigger Entered");
             if(isvideoPlaying==false)
             {
                 backgroundMusic.Pause();
