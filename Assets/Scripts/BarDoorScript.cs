@@ -6,8 +6,8 @@ public class BarDoorScript : MonoBehaviour {
 
 	public bool openDoor;
 	public List<string> objectsInteractedWith = new List<string>(); 
-	public float rotationDegreesPerSecond = 20f;
-    public float rotationDegreesAmount = 120f;
+	public float rotationDegreesPerSecond = 12f;
+    public float rotationDegreesAmount = 90f;
     private float totalRotation = 0;
 	public AudioSource audioSource;
 	bool soundPlayed;
@@ -21,7 +21,7 @@ public class BarDoorScript : MonoBehaviour {
 	}
 	// Use this for initialization
 	void Start () {
-		Debug.Log("Length=" + objectsInteractedWith.Count);
+		//Debug.Log("Length=" + objectsInteractedWith.Count);
 	}
 	
 	// Update is called once per frame
@@ -52,7 +52,7 @@ public class BarDoorScript : MonoBehaviour {
 				soundPlayed=true;
 			}
 		   float currentAngle = transform.rotation.eulerAngles.y;
-		   Debug.Log(currentAngle);
+		   //Debug.Log(currentAngle);
    			transform.rotation = 
     		Quaternion.AngleAxis(currentAngle + (Time.deltaTime * rotationDegreesPerSecond ), Vector3.up);
    			totalRotation += Time.deltaTime * rotationDegreesPerSecond ;
