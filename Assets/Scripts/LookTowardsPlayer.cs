@@ -24,8 +24,6 @@ public class LookTowardsPlayer : MonoBehaviour {
 
         Vector3 newDirection = Vector3.RotateTowards(transform.forward, targetDirection, step, 0.0f);
 
-        Debug.Log("Bone Transform: " + transform.forward + ", newDirection: " + newDirection);
-
         // Move our position a step closer to the target.
         transform.rotation = Quaternion.LookRotation(newDirection) * Quaternion.Euler(0, 0, -90f);
     }
