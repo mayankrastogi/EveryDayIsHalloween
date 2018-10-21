@@ -1,11 +1,9 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using VRTK;
 
-public class PlayWithMeTrigger : MonoBehaviour {
+public class ISeeYouTrigger : MonoBehaviour {
 
-    public BabyBlockPuzzle BlockPuzzleScript;
     public AudioSource audioSource;
     public string headsetColliderContainerName = "HeadsetColliderContainer";
 
@@ -13,10 +11,10 @@ public class PlayWithMeTrigger : MonoBehaviour {
 
     private void OnTriggerEnter(Collider other) {
 
-        if (other.name.Contains(headsetColliderContainerName) && !BlockPuzzleScript.isPuzzleSolved) {
+        if (other.name.Contains(headsetColliderContainerName)) {
             Debug.Log("Headset collided with trigger");
 
-            if(RoomLights != null) {
+            if (RoomLights != null) {
                 RoomLights.FlickerOnce();
             }
 

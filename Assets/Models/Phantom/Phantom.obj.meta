@@ -1,0 +1,193 @@
+fileFormatVersion: 2
+guid: 01e0039d9a707094f98d77f6c78ce8f4
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: default
+    100002: //RootNode
+    400000: default
+    400002: //RootNode
+    2100000: texture005_texture005.png
+    2100002: texture004_texture004.png
+    2100004: texture007_texture007.png
+    2100006: texture006_texture006.png
+    2100008: texture001_texture001.png
+    2100010: texture000_texture000.png
+    2100012: texture003_texture003.png
+    2100014: texture002_texture002.png
+    2100016: texture014_texture014.png
+    2100018: texture012_texture012.png
+    2100020: texture013_texture013.png
+    2100022: texture009_texture009.png
+    2100024: texture008_texture008.png
+    2100026: texture015_texture015.png
+    2100028: texture010_texture010.png
+    2100030: texture011_texture011.png
+    2100032: defaultMat
+    2300000: default
+    3300000: default
+    4300000: default
+    2186277476908879412: ImportLogs
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: texture000_texture000.png
+    second: {fileID: 2100000, guid: 24f7e6dbe9fe64b4992e69746178f243, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: texture001_texture001.png
+    second: {fileID: 2100000, guid: 80f3dd9747dc86e419c3371d06b6fbc2, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: texture002_texture002.png
+    second: {fileID: 2100000, guid: 59b4e4ca4fc88f24f8403d9db8601807, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: texture003_texture003.png
+    second: {fileID: 2100000, guid: 053b809ba23d14241b67c2a9c53e3ef3, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: texture004_texture004.png
+    second: {fileID: 2100000, guid: f0be6a28bbd23564b92e4309fd040d8c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: texture005_texture005.png
+    second: {fileID: 2100000, guid: dc92a3ad639d5544197629fa74566de7, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: texture006_texture006.png
+    second: {fileID: 2100000, guid: cfb11b4ea89c2794fa0e00cc2dd735f9, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: texture007_texture007.png
+    second: {fileID: 2100000, guid: 3c11ad69e793ced468c505aaa501aef3, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: texture008_texture008.png
+    second: {fileID: 2100000, guid: a365bc07acf68a549a461af6ac5bbd83, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: texture009_texture009.png
+    second: {fileID: 2100000, guid: 3d437be7da2764842bcae3bb86ffe307, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: texture010_texture010.png
+    second: {fileID: 2100000, guid: ae94e2e4badfedb4b843a23cb45b16e2, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: texture011_texture011.png
+    second: {fileID: 2100000, guid: 2ab65006342c33140930d026e5f6c6b4, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: texture012_texture012.png
+    second: {fileID: 2100000, guid: 023834368742b934cada815d60bb3f1c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: texture013_texture013.png
+    second: {fileID: 2100000, guid: 5526728f13d95af498316a30ab2fde81, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: texture014_texture014.png
+    second: {fileID: 2100000, guid: b87c8349b3d00de4dba3f299d307dc17, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: texture015_texture015.png
+    second: {fileID: 2100000, guid: 02d5f65dae0992f43a356cdebab3e6be, type: 2}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    previousCalculatedGlobalScale: 1
+    hasPreviousCalculatedGlobalScale: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

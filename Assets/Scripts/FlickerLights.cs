@@ -87,13 +87,13 @@ public class FlickerLights : MonoBehaviour {
             yield return new WaitForSeconds(intervalTimer);
 
             if(durationTimer >= PulseDuration) {
+                if (once) {
+                    StopFlickering();
+                    break;
+                }
+
                 yield return new WaitForSeconds(TimeBetweenFlickers);
                 durationTimer = 0.0f;
-            }
-
-            if(once) {
-                StopFlickering();
-                break;
             }
         }
     }
