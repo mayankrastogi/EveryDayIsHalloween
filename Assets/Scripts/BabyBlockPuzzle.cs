@@ -9,6 +9,9 @@ public class BabyBlockPuzzle : MonoBehaviour {
     public AudioSource audioOnPuzzleSolved;
     public AudioSource audioOnPuzzleWrong;
 
+    public FlickerLights RoomLights;
+    private FlickerLights ThunderLights;
+
     private Dictionary<string, bool> blocksPlaced = new Dictionary<string, bool>() {
         {"A",  false},
         {"B",  false},
@@ -34,9 +37,8 @@ public class BabyBlockPuzzle : MonoBehaviour {
                     isPuzzleSolved = true;
                     Debug.Log("BabyBlock puzzle solved!");
 
-                    // TODO: Trigger Puzzle Solved Sequence
-
-                    audioOnPuzzleSolved.Play();
+                    //Trigger Puzzle Solved Sequence
+                    TriggerPuzzleSolvedSequence();
                 }
                 else {
                     Debug.Log("BabyBlock puzzle remains unsolved!");
@@ -77,5 +79,28 @@ public class BabyBlockPuzzle : MonoBehaviour {
             }
         }
         return true;
+    }
+
+    public void TriggerPuzzleSolvedSequence() {
+        if (ThunderLights == null) {
+            foreach (FlickerLights item in FindObjectsOfType<FlickerLights>()) {
+                if (item.name.Contains("Thunder")) {
+                    ThunderLights = item;
+                }
+            }
+        }
+
+        if(RoomLights != null) {
+            RoomLights.StayOnWhenNotFlickering = false;
+            RoomLights.StartFlickering();
+        }
+
+        if(ThunderLights != null) {
+            ThunderLights.StartFlickering();
+        }
+
+        if(audioOnPuzzleSolved != null) {
+            audioOnPuzzleSolved.Play();
+        }
     }
 }

@@ -51,13 +51,13 @@ public class PhantomTrigger : MonoBehaviour {
 
         PhantomAnimator.SetTrigger("FlyBy");
 
-        if (ThunderLights != null) {
+        if (ThunderLights != null && !ThunderLights.IsFlickering) {
             ThunderLights.FlickerOnce();
         }
 
         yield return new WaitForSeconds(lightsOffDuration - delayBetweenSFXAndVFX);
 
-        if (RoomLights != null) {
+        if (RoomLights != null && !ThunderLights.IsFlickering) {
             RoomLights.ToggleLights(true);
             RoomLights.FlickerOnce();
         }

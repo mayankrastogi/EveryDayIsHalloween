@@ -17,12 +17,14 @@ public class FlickerLights : MonoBehaviour {
     public bool FlickerFlashlight = true;
     public Flashlight FlashlightObject;
 
-    private bool IsFlickering = false;
+    public bool IsFlickering { get; private set; }
     private Light[] ChildLights;
     private AudioSource[] ChildAudioSources;
 
 	// Use this for initialization
 	void Start () {
+        IsFlickering = false;
+
         if(LightsContainer == null) {
             LightsContainer = this.gameObject;
         }

@@ -6,6 +6,9 @@ using VRTK;
 public class PlayWithMeTrigger : MonoBehaviour {
 
     public BabyBlockPuzzle BlockPuzzleScript;
+
+    public List<AudioClip> audioClipsToPlay;
+
     public AudioSource audioSource;
     public string headsetColliderContainerName = "HeadsetColliderContainer";
 
@@ -20,8 +23,10 @@ public class PlayWithMeTrigger : MonoBehaviour {
                 RoomLights.FlickerOnce();
             }
 
-            if (audioSource != null && !audioSource.isPlaying) {
-                audioSource.Play();
+            if (audioSource != null && audioClipsToPlay.Count > 0 && !audioSource.isPlaying) {
+                audioSource.PlayOneShot(audioClipsToPlay[Mathf.RoundToInt(Random.Range(0, audioClipsToPlay.Count))]);
+
+                //audioSource.Play();
             }
         }
     }
