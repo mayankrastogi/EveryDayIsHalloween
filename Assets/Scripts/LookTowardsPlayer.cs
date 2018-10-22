@@ -17,14 +17,16 @@ public class LookTowardsPlayer : MonoBehaviour {
     void Update () {
         Transform headsetTransform = VRTK_DeviceFinder.HeadsetTransform();
 
-        Vector3 targetDirection = headsetTransform.position - transform.position;
+        if (headsetTransform != null) {
+            Vector3 targetDirection = headsetTransform.position - transform.position;
 
-        // The step size is equal to speed times frame time.
-        float step = speedInRadiansPerSecond * Time.deltaTime;
+            // The step size is equal to speed times frame time.
+            float step = speedInRadiansPerSecond * Time.deltaTime;
 
-        Vector3 newDirection = Vector3.RotateTowards(transform.forward, targetDirection, step, 0.0f);
+            Vector3 newDirection = Vector3.RotateTowards(transform.forward, targetDirection, step, 0.0f);
 
-        // Move our position a step closer to the target.
-        transform.rotation = Quaternion.LookRotation(newDirection) * Quaternion.Euler(0, 0, -90f);
+            // Move our position a step closer to the target.
+            transform.rotation = Quaternion.LookRotation(newDirection) * Quaternion.Euler(0, 0, -90f);
+        }
     }
 }
