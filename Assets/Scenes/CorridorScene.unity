@@ -2828,7 +2828,7 @@ MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 307302465}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 6bda244a6782c2b4daa099c29c099174, type: 3}
   m_Name: 
@@ -2855,7 +2855,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   NameOfColliderToTest: HeadsetCollider
   doorToCloseTag: CellarDoor
-  doorToOpenTag: 
+  doorToOpenTag: KitchenDoor
   rotationDegreesPerSecond: 45
   rotationDegreesAmount: 180
 --- !u!65 &307302469
@@ -10232,7 +10232,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   NameOfColliderToTest: HeadsetCollider
   doorToCloseTag: LivingRoomDoor
-  doorToOpenTag: 
+  doorToOpenTag: CellarDoor
   rotationDegreesPerSecond: 45
   rotationDegreesAmount: 180
 --- !u!114 &1284325815
@@ -11050,7 +11050,7 @@ Mesh:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
-  m_Name: pb_Mesh117104
+  m_Name: pb_Mesh215274
   serializedVersion: 9
   m_SubMeshes:
   - serializedVersion: 2

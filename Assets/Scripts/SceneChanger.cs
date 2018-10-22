@@ -33,6 +33,8 @@ public class SceneChanger : MonoBehaviour {
     public ManagedScenes SceneToUnload = ManagedScenes.Undefined;
     public TriggerEvents EventToUnloadSceneOn = TriggerEvents.OnTriggerEnter;
 
+    public bool locked = false;
+
     public bool LoadSceneOnStartup = false;
     public RecenterPlayArea recenterScript;
 
@@ -83,6 +85,9 @@ public class SceneChanger : MonoBehaviour {
     }
 
     private void OnTriggerEnter(Collider other) {
+        if(locked) {
+            return;
+        }
 
         if(other.name.Contains(NameOfColliderToTest)) {
             if(!SceneUnloaded && SceneToUnload != ManagedScenes.Undefined && EventToUnloadSceneOn == TriggerEvents.OnTriggerEnter) {
@@ -100,6 +105,9 @@ public class SceneChanger : MonoBehaviour {
     }
 
     private void OnTriggerExit(Collider other) {
+        if (locked) {
+            return;
+        }
 
         if (other.name.Contains(NameOfColliderToTest)) {
             if (!SceneUnloaded && SceneToUnload != ManagedScenes.Undefined && EventToUnloadSceneOn == TriggerEvents.OnTriggerExit) {
@@ -117,6 +125,9 @@ public class SceneChanger : MonoBehaviour {
     }
 
     private void OnTriggerStay(Collider other) {
+        if (locked) {
+            return;
+        }
 
         if (other.name.Contains(NameOfColliderToTest)) {
             if (!SceneUnloaded && SceneToUnload != ManagedScenes.Undefined && EventToUnloadSceneOn == TriggerEvents.OnTriggerStay) {

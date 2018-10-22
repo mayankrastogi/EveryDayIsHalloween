@@ -18025,7 +18025,8 @@ MonoBehaviour:
   EventToLoadSceneOn: 1
   SceneToUnload: 7
   EventToUnloadSceneOn: 1
-  LoadSceneOnStartup: 0
+  locked: 0
+  LoadSceneOnStartup: 1
   recenterScript: {fileID: 179619353}
   SceneLoaded: 0
   SceneUnloaded: 0
@@ -18045,7 +18046,8 @@ MonoBehaviour:
   EventToLoadSceneOn: 1
   SceneToUnload: 7
   EventToUnloadSceneOn: 1
-  LoadSceneOnStartup: 0
+  locked: 0
+  LoadSceneOnStartup: 1
   recenterScript: {fileID: 0}
   SceneLoaded: 0
   SceneUnloaded: 0
@@ -21458,7 +21460,7 @@ Mesh:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
-  m_Name: pb_Mesh-1670
+  m_Name: pb_Mesh-1672
   serializedVersion: 9
   m_SubMeshes:
   - serializedVersion: 2
@@ -37015,7 +37017,7 @@ Mesh:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
-  m_Name: pb_Mesh-1458
+  m_Name: pb_Mesh-1460
   serializedVersion: 9
   m_SubMeshes:
   - serializedVersion: 2
