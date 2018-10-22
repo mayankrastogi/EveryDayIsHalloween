@@ -28,16 +28,18 @@ public class SceneChanger : MonoBehaviour {
     public string NameOfColliderToTest = "HeadsetCollider";
 
     public ManagedScenes SceneToLoad = ManagedScenes.Undefined;
-    public TriggerEvents EventToLoadSceneOn = TriggerEvents.OnTriggerExit;
+    public TriggerEvents EventToLoadSceneOn = TriggerEvents.OnTriggerEnter;
 
     public ManagedScenes SceneToUnload = ManagedScenes.Undefined;
-    public TriggerEvents EventToUnloadSceneOn = TriggerEvents.OnTriggerExit;
+    public TriggerEvents EventToUnloadSceneOn = TriggerEvents.OnTriggerEnter;
 
     public bool LoadSceneOnStartup = false;
     public RecenterPlayArea recenterScript;
 
     public bool SceneLoaded = false;
     public bool SceneUnloaded = false;
+
+    private bool unloadNeeded = false;
 
     private void Start() {
         if(recenterScript != null) {
@@ -51,13 +53,19 @@ public class SceneChanger : MonoBehaviour {
     }
 
     public IEnumerator LoadScene(ManagedScenes scene, LoadSceneMode sceneMode = LoadSceneMode.Additive) {
-        AsyncOperation asyncLoad = SceneManager.LoadSceneAsync((int)scene, sceneMode);
+        while(unloadNeeded && !SceneUnloaded) {
+            yield return null;
+        }
 
-        while(!asyncLoad.isDone) {
+        AsyncOperation asyncLoad = SceneManager.LoadSceneAsync((int)scene, sceneMode);
+        asyncLoad.allowSceneActivation = false;
+
+        while(asyncLoad.progress < 0.9f) {
             Debug.Log("Scene Load Progress: " + (asyncLoad.progress * 100) + "%");
             yield return null;
         }
 
+        asyncLoad.allowSceneActivation = true;
         Debug.Log("Scene Loaded: " + scene);
         SceneLoaded = true;
     }
@@ -77,12 +85,16 @@ public class SceneChanger : MonoBehaviour {
     private void OnTriggerEnter(Collider other) {
 
         if(other.name.Contains(NameOfColliderToTest)) {
-            if (!SceneLoaded && SceneToLoad != ManagedScenes.Undefined && EventToLoadSceneOn == TriggerEvents.OnTriggerEnter) {
-                StartCoroutine(LoadScene(SceneToLoad));
+            if(!SceneUnloaded && SceneToUnload != ManagedScenes.Undefined && EventToUnloadSceneOn == TriggerEvents.OnTriggerEnter) {
+                unloadNeeded = true;
+                StartCoroutine(UnloadScene(SceneToUnload));
+            }
+            else {
+                unloadNeeded = false;
             }
 
-            if(!SceneUnloaded && SceneToUnload != ManagedScenes.Undefined && EventToUnloadSceneOn == TriggerEvents.OnTriggerEnter) {
-                StartCoroutine(UnloadScene(SceneToUnload));
+            if (!SceneLoaded && SceneToLoad != ManagedScenes.Undefined && EventToLoadSceneOn == TriggerEvents.OnTriggerEnter) {
+                StartCoroutine(LoadScene(SceneToLoad));
             }
         }
     }
@@ -90,12 +102,16 @@ public class SceneChanger : MonoBehaviour {
     private void OnTriggerExit(Collider other) {
 
         if (other.name.Contains(NameOfColliderToTest)) {
-            if (!SceneLoaded && SceneToLoad != ManagedScenes.Undefined && EventToLoadSceneOn == TriggerEvents.OnTriggerExit) {
-                StartCoroutine(LoadScene(SceneToLoad));
+            if (!SceneUnloaded && SceneToUnload != ManagedScenes.Undefined && EventToUnloadSceneOn == TriggerEvents.OnTriggerExit) {
+                unloadNeeded = true;
+                StartCoroutine(UnloadScene(SceneToUnload));
+            }
+            else {
+                unloadNeeded = false;
             }
 
-            if (!SceneUnloaded && SceneToUnload != ManagedScenes.Undefined && EventToUnloadSceneOn == TriggerEvents.OnTriggerExit) {
-                StartCoroutine(UnloadScene(SceneToUnload));
+            if (!SceneLoaded && SceneToLoad != ManagedScenes.Undefined && EventToLoadSceneOn == TriggerEvents.OnTriggerExit) {
+                StartCoroutine(LoadScene(SceneToLoad));
             }
         }
     }
@@ -103,13 +119,17 @@ public class SceneChanger : MonoBehaviour {
     private void OnTriggerStay(Collider other) {
 
         if (other.name.Contains(NameOfColliderToTest)) {
+            if (!SceneUnloaded && SceneToUnload != ManagedScenes.Undefined && EventToUnloadSceneOn == TriggerEvents.OnTriggerStay) {
+                unloadNeeded = true;
+                StartCoroutine(UnloadScene(SceneToUnload));
+            }
+            else {
+                unloadNeeded = false;
+            }
+
             if (!SceneLoaded && SceneToLoad != ManagedScenes.Undefined && EventToLoadSceneOn == TriggerEvents.OnTriggerStay) {
                 StartCoroutine(LoadScene(SceneToLoad));
             }
-
-            if (!SceneUnloaded && SceneToUnload != ManagedScenes.Undefined && EventToUnloadSceneOn == TriggerEvents.OnTriggerStay) {
-            }
-                StartCoroutine(UnloadScene(SceneToUnload));
         }
     }
 }
