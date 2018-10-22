@@ -41,6 +41,7 @@ public class SceneChanger : MonoBehaviour {
 
     private void Start() {
         if(recenterScript != null) {
+            Debug.Log("Recenter: " + recenterScript);
             recenterScript.Recenter();
         }
 

@@ -17,8 +17,10 @@ public class RecenterPlayArea : MonoBehaviour {
 
     public void Recenter() {
         Transform playArea = VRTK_DeviceFinder.PlayAreaTransform();
-        Debug.Log("PlayArea position: " + playArea.position + " rotation " + playArea.rotation);
-        playArea.position = Vector3.zero;
-        playArea.rotation = Quaternion.identity;
+        if (playArea != null) {
+            Debug.Log("PlayArea position: " + playArea.position + " rotation " + playArea.rotation);
+            playArea.position = Vector3.zero;
+            playArea.rotation = Quaternion.identity;
+        }
     }
 }

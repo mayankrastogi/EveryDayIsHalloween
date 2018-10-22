@@ -18,7 +18,6 @@ public class DoorOpen : MonoBehaviour {
 
     // Update is called once per frame
     void Update() {
-        Debug.Log("open Door" + openDoor);
         if (openDoor && doorOpened == false) {
             if (Mathf.Abs(totalRotation) < Mathf.Abs(rotationDegreesAmount)) {
                 openTheDoor();

@@ -4,52 +4,47 @@ using UnityEngine;
 
 public class DoorCloseScript : MonoBehaviour {
 
+    public string NameOfColliderToTest = "HeadsetCollider";
+    public string doorToCloseTag;
+    public string doorToOpenTag;
     public float rotationDegreesPerSecond = 45f;
     public float rotationDegreesAmount = 180f;
     private float totalRotation = 0;
-	bool closeDoor=false;
-	bool doorClosed=false;
-	GameObject doorToClose;
-	// Use this for initialization
-	void Start () {
+    bool closeDoor = false;
+    bool doorClosed = false;
 
-		doorToClose=GameObject.FindWithTag("CellarDoor");
-		
-	}
-	
-	// Update is called once per frame
-	void Update () {
+    GameObject doorToClose;
+    DoorOpen doorToOpen;
+    // Use this for initialization
 
-		/* if(closeDoor==true && doorClosed==false)
-		{
-			if(Mathf.Abs(totalRotation) <  Mathf.Abs(rotationDegreesAmount))
-			{
-            	closeTheDoor();
-			}
-			else
-			{
-				doorClosed=true;
-			}			
-		}*/
-		
-	}
-	private void OnTriggerEnter(Collider Other)
-    {
-		
-		if(closeDoor==false)
-		{
-		doorToClose.transform.Rotate(new Vector3(0, -90f, 0));
-		Debug.Log("Name is: " + doorToClose.name);
-		}
-		closeDoor=true;
+    bool IsNullOrEmpty(string str) {
+        return str == null || str.Length == 0;
+    }
+
+    void Start() {
+
+        doorToClose = !IsNullOrEmpty(doorToCloseTag) ? GameObject.FindWithTag(doorToCloseTag) : null;
+        GameObject doorToOpenGameObject = !IsNullOrEmpty(doorToOpenTag) ? GameObject.FindWithTag(doorToOpenTag) : null;
+        if (doorToOpenGameObject != null) {
+            doorToOpen = doorToOpenGameObject.GetComponent<DoorOpen>();
+        }
+    }
+
+    private void OnTriggerEnter(Collider Other) {
+
+        if (doorToClose != null && Other.name.Contains(NameOfColliderToTest)) {
+
+            if (closeDoor == false) {
+                doorToClose.transform.Rotate(new Vector3(0, -90f, 0));
+            }
+            closeDoor = true;
+        }
 
     }
-	void closeTheDoor()
-	{
-		/* float currentAngle = transform.rotation.eulerAngles.y;
-		   //Debug.Log(currentAngle);
-   			doorToClose.transform.rotation = 
-    		Quaternion.AngleAxis(currentAngle + (Time.deltaTime * rotationDegreesPerSecond ), Vector3.up);
-   			totalRotation += Time.deltaTime * rotationDegreesPerSecond ;*/
-	}
+
+    private void OnTriggerExit(Collider other) {
+        if(doorToOpen != null && other.name.Contains(NameOfColliderToTest)) {
+            doorToOpen.openDoor = true;
+        }
+    }
 }
