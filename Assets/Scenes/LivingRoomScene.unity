@@ -1838,19 +1838,19 @@ Light:
   m_Enabled: 1
   serializedVersion: 8
   m_Type: 2
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_Intensity: 0.4
-  m_Range: 10
+  m_Color: {r: 1, g: 0.95686275, b: 0.8392157, a: 1}
+  m_Intensity: 1
+  m_Range: 6
   m_SpotAngle: 30
   m_CookieSize: 10
   m_Shadows:
-    m_Type: 0
+    m_Type: 2
     m_Resolution: -1
     m_CustomResolution: -1
     m_Strength: 1
     m_Bias: 0.05
     m_NormalBias: 0.4
-    m_NearPlane: 0.2
+    m_NearPlane: 0.26
   m_Cookie: {fileID: 0}
   m_DrawHalo: 0
   m_Flare: {fileID: 0}
@@ -3481,11 +3481,11 @@ Prefab:
     m_Modifications:
     - target: {fileID: 400000, guid: ae9c1ee957e0bbb4ea819fafd6a4f148, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -0.793941
+      value: -0.808
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: ae9c1ee957e0bbb4ea819fafd6a4f148, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 2.0568933
+      value: 2.045
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: ae9c1ee957e0bbb4ea819fafd6a4f148, type: 3}
       propertyPath: m_LocalPosition.z
@@ -18380,19 +18380,19 @@ Light:
   m_Enabled: 1
   serializedVersion: 8
   m_Type: 2
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_Intensity: 0.1
-  m_Range: 10
+  m_Color: {r: 1, g: 0.95686275, b: 0.8392157, a: 1}
+  m_Intensity: 1
+  m_Range: 6
   m_SpotAngle: 30
   m_CookieSize: 10
   m_Shadows:
-    m_Type: 0
+    m_Type: 2
     m_Resolution: -1
     m_CustomResolution: -1
     m_Strength: 1
     m_Bias: 0.05
     m_NormalBias: 0.4
-    m_NearPlane: 0.2
+    m_NearPlane: 0.26
   m_Cookie: {fileID: 0}
   m_DrawHalo: 0
   m_Flare: {fileID: 0}
@@ -19624,7 +19624,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 4503272841404670, guid: 1e18dde9aab7650498616a399202fdf4, type: 2}
       propertyPath: m_LocalPosition.x
-      value: -0.87394094
+      value: -0.8439409
       objectReference: {fileID: 0}
     - target: {fileID: 4503272841404670, guid: 1e18dde9aab7650498616a399202fdf4, type: 2}
       propertyPath: m_LocalPosition.y
@@ -21328,8 +21328,8 @@ MonoBehaviour:
   PulseDuration: 0.8
   TimeBetweenFlickers: 2.5
   StayOnWhenNotFlickering: 1
-  FlickerOnLoad: 0
-  FlickerFlashlight: 1
+  FlickerOnLoad: 1
+  FlickerFlashlight: 0
   FlashlightObject: {fileID: 0}
 --- !u!1 &1438188322
 GameObject:
@@ -21368,7 +21368,7 @@ Prefab:
     m_Modifications:
     - target: {fileID: 499544, guid: dcca16ec28ac4b44aa6543de547345bb, type: 2}
       propertyPath: m_LocalPosition.x
-      value: -0.047
+      value: 1.052
       objectReference: {fileID: 0}
     - target: {fileID: 499544, guid: dcca16ec28ac4b44aa6543de547345bb, type: 2}
       propertyPath: m_LocalPosition.y
