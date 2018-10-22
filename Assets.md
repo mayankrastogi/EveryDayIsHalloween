@@ -15,8 +15,12 @@
 |  9 | Ghost Ship | [SketchFab](https://sketchfab.com/models/32b01694ef9f4e8fa3d499d05dacb5fa) | [Samize](https://sketchfab.com/samize) | [CC Attribution-NonCommercial-ShareAlike](http://creativecommons.org/licenses/by-nc-sa/4.0/) |
 | 10 | Hay Ghost | [SketchFab](https://sketchfab.com/models/49a4effff25c4e7ea663d6ab1741e49a) | [Roberto Abella](https://sketchfab.com/epimeison) | [CC Attribution](http://creativecommons.org/licenses/by/4.0/) |
 | 11 | Phantom | [SketchFab](https://sketchfab.com/models/cd9f604fe0254d72bba786b086a75245) | [peedr0o0](https://sketchfab.com/peedr0o0) | [CC Attribution](http://creativecommons.org/licenses/by/4.0/) |
-
 | 12 | Flashlight | [SketchFab](https://sketchfab.com/models/a8def4fb92ee4b3383726d053ff0f0e1) | [K1TT3N](https://sketchfab.com/K1TT3N) | [CC Attribution](http://creativecommons.org/licenses/by/4.0/) |
+| 13 | Zombie Toys Pack | [Unity Asset Store](https://assetstore.unity.com/packages/essentials/certification/chapter-01-03-zombie-toys-56274) | [Unity Education](https://assetstore.unity.com/publishers/15358) | - |
+| 14 | Creepy Doll | [SketchFab](https://sketchfab.com/models/3f068f4f36694db2a17f22b59bb62f70) | [kondratenkoa](https://sketchfab.com/kondratenkoa) | [CC Attribution](http://creativecommons.org/licenses/by/4.0/) |
+| 15 | Creepy Doll Head | [SketchFab](https://sketchfab.com/models/05466f98b03e4a6bb35ee0d89d02ed18) | [MacDesigns](https://sketchfab.com/MacDesigns) | [CC Attribution](http://creativecommons.org/licenses/by/4.0/) |
+| 16 | Voodoo Doll | [SketchFab](https://sketchfab.com/models/e0245d6f01f141f9812582a9487c3062) | [Sophie](https://sketchfab.com/Sofi_EX) | [CC Attribution-NonCommercial](http://creativecommons.org/licenses/by-nc/4.0/) |
+| 17 | Baby Seat | [SketchFab](https://sketchfab.com/models/def800ffc66d4be6871cee0789cdd8bb) | [Francesco Coldesina](https://sketchfab.com/topfrank2013) | [CC Attribution](http://creativecommons.org/licenses/by/4.0/) |
 
 #### Textures
 
@@ -56,3 +60,5 @@
 | 20 | High Pitch Scream | [FreeSoundEffects](https://www.freesoundeffects.com/free-track/nmh-scream1-466424/) | [Partners In Rhyme](https://www.freesoundeffects.com/composer/partners-in-rhyme-0/) | [Custom License](https://www.freesoundeffects.com/licence.php) |
 | 21 | Horror Sound Effects Pack | [RocketStock](https://www.rocketstock.com/free-after-effects-templates/horror-sound-effects-pack/) | [RocketStock](https://www.rocketstock.com) | [RocketStock License](https://www.rocketstock.com/license/) |
 | 22 | The Warehouse Pack | [99Sounds](http://99sounds.org/the-warehouse/) | [Richard Gould](http://richard-gould.com/) | [Free to use](http://99sounds.org/the-warehouse/) |
+| 23 | Creepy Doll Music | [Orange Free Sounds](http://www.orangefreesounds.com/creepy-doll-music-box/) | [Orange Free Sounds](http://www.orangefreesounds.com/) | [Free for Commercial Use](http://www.orangefreesounds.com/creepy-doll-music-box/) |
+|  8 | Evil Laugh | [SoundBible](http://soundbible.com/837-Evil-Laugh.html) | Mike Koenig | [Creative Commons Attribution 3.0](http://creativecommons.org/licenses/by/3.0/) |

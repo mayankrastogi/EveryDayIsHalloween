@@ -33,8 +33,21 @@ public class SceneChanger : MonoBehaviour {
     public ManagedScenes SceneToUnload = ManagedScenes.Undefined;
     public TriggerEvents EventToUnloadSceneOn = TriggerEvents.OnTriggerExit;
 
+    public bool LoadSceneOnStartup = false;
+    public RecenterPlayArea recenterScript;
+
     public bool SceneLoaded = false;
     public bool SceneUnloaded = false;
+
+    private void Start() {
+        if(recenterScript != null) {
+            recenterScript.Recenter();
+        }
+
+        if(LoadSceneOnStartup && SceneToLoad != ManagedScenes.Undefined) {
+            StartCoroutine(LoadScene(SceneToLoad));
+        }
+    }
 
     public IEnumerator LoadScene(ManagedScenes scene, LoadSceneMode sceneMode = LoadSceneMode.Additive) {
         AsyncOperation asyncLoad = SceneManager.LoadSceneAsync((int)scene, sceneMode);

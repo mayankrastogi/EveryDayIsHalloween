@@ -13,6 +13,8 @@ public class Flashlight : VRTK_InteractableObject {
 
     private Material FlashlightMaterial;
 
+    private bool isUsingForFirstTime = true;
+
 	// Use this for initialization
 	void Start () {
         if (FlashlightRenderer != null)
@@ -33,6 +35,14 @@ public class Flashlight : VRTK_InteractableObject {
     public override void StartUsing(VRTK_InteractUse currentUsingObject = null) {
         base.StartUsing(currentUsingObject);
         SwitchOn();
+
+        if(isUsingForFirstTime) {
+            GameObject livingRoomDoor = GameObject.FindGameObjectWithTag("LivingRoomDoor");
+            DoorOpen dooropen1 = livingRoomDoor.GetComponent<DoorOpen>();
+            dooropen1.openDoor = true;
+
+            isUsingForFirstTime = false;
+        }
     }
 
     public override void StopUsing(VRTK_InteractUse previousUsingObject = null, bool resetUsingObjectState = true) {

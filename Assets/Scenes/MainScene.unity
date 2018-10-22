@@ -2666,6 +2666,61 @@ MonoBehaviour:
   verbose: 0
   createComponents: 1
   updateDynamically: 1
+--- !u!1001 &425746934
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 1063090778}
+    m_Modifications:
+    - target: {fileID: 4734538036224304, guid: 17f99f9a1c7f4e2429064a4c3b96f86f, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: 1.322
+      objectReference: {fileID: 0}
+    - target: {fileID: 4734538036224304, guid: 17f99f9a1c7f4e2429064a4c3b96f86f, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: 1.705
+      objectReference: {fileID: 0}
+    - target: {fileID: 4734538036224304, guid: 17f99f9a1c7f4e2429064a4c3b96f86f, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: -0.74
+      objectReference: {fileID: 0}
+    - target: {fileID: 4734538036224304, guid: 17f99f9a1c7f4e2429064a4c3b96f86f, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4734538036224304, guid: 17f99f9a1c7f4e2429064a4c3b96f86f, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4734538036224304, guid: 17f99f9a1c7f4e2429064a4c3b96f86f, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: 0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 4734538036224304, guid: 17f99f9a1c7f4e2429064a4c3b96f86f, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: 0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 4734538036224304, guid: 17f99f9a1c7f4e2429064a4c3b96f86f, type: 2}
+      propertyPath: m_RootOrder
+      value: 18
+      objectReference: {fileID: 0}
+    - target: {fileID: 4734538036224304, guid: 17f99f9a1c7f4e2429064a4c3b96f86f, type: 2}
+      propertyPath: m_LocalScale.x
+      value: 0.10000006
+      objectReference: {fileID: 0}
+    - target: {fileID: 4734538036224304, guid: 17f99f9a1c7f4e2429064a4c3b96f86f, type: 2}
+      propertyPath: m_LocalScale.y
+      value: 0.10000006
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 17f99f9a1c7f4e2429064a4c3b96f86f, type: 2}
+  m_IsPrefabAsset: 0
+--- !u!4 &425746935 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 4734538036224304, guid: 17f99f9a1c7f4e2429064a4c3b96f86f,
+    type: 2}
+  m_PrefabInternal: {fileID: 425746934}
 --- !u!43 &433192671
 Mesh:
   m_ObjectHideFlags: 0
@@ -5768,6 +5823,8 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1063090778}
+  - component: {fileID: 1063090780}
+  - component: {fileID: 1063090779}
   m_Layer: 0
   m_Name: SceneObjects
   m_TagString: WorldContainer
@@ -5803,9 +5860,50 @@ Transform:
   - {fileID: 695714977}
   - {fileID: 1566931317}
   - {fileID: 1932000081}
+  - {fileID: 425746935}
   m_Father: {fileID: 0}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1063090779
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1063090777}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6bda244a6782c2b4daa099c29c099174, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  NameOfColliderToTest: HeadsetCollider
+  SceneToLoad: 2
+  EventToLoadSceneOn: 1
+  SceneToUnload: 7
+  EventToUnloadSceneOn: 1
+  LoadSceneOnStartup: 0
+  recenterScript: {fileID: 179619353}
+  SceneLoaded: 0
+  SceneUnloaded: 0
+--- !u!114 &1063090780
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1063090777}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6bda244a6782c2b4daa099c29c099174, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  NameOfColliderToTest: HeadsetCollider
+  SceneToLoad: 1
+  EventToLoadSceneOn: 1
+  SceneToUnload: 7
+  EventToUnloadSceneOn: 1
+  LoadSceneOnStartup: 0
+  recenterScript: {fileID: 0}
+  SceneLoaded: 0
+  SceneUnloaded: 0
 --- !u!1 &1079871674
 GameObject:
   m_ObjectHideFlags: 0
@@ -6937,7 +7035,7 @@ Mesh:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
-  m_Name: pb_Mesh-4012
+  m_Name: pb_Mesh-460896
   serializedVersion: 9
   m_SubMeshes:
   - serializedVersion: 2
@@ -12160,7 +12258,7 @@ Mesh:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
-  m_Name: pb_Mesh-1397978
+  m_Name: pb_Mesh-460660
   serializedVersion: 9
   m_SubMeshes:
   - serializedVersion: 2
