@@ -31,9 +31,9 @@ public class DoorCloseScript : MonoBehaviour {
     }
 
     private void OnTriggerEnter(Collider Other) {
-
+		
         if (doorToClose != null && Other.name.Contains(NameOfColliderToTest)) {
-
+         Debug.Log("Name is:  " + Other.gameObject.name);
             if (closeDoor == false) {
                 doorToClose.transform.Rotate(new Vector3(0, -90f, 0));
             }

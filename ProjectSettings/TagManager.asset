@@ -9,6 +9,7 @@ TagManager:
   - BabyBlock
   - LivingRoomDoor
   - CellarDoor
+  - KitchenDoor
   layers:
   - Default
   - TransparentFX
