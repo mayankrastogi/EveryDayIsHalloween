@@ -133,6 +133,14 @@ Heart: https://sketchfab.com/models/fc47278a60aa4e8eb2a0f49dd7ac21df <br/> or ht
 Adidas Image For Material: https://www.google.com/search?rlz=1C1CHBF_enUS816US816&biw=1366&bih=608&tbm=isch&sa=1&ei=62_JW8z4F8OwtgX6jKi4DA&q=adidas+textures&oq=adidas+textures&gs_l=img.3...2348.4517..4938...0.0..0.66.512.9......1....1..gws-wiz-img.......0j0i67j0i30j0i8i30j0i24.lqFtE2mo1VE#imgrc=62wGP5yWLoBeRM:<br/>
 
 Lungs With Animation: https://sketchfab.com/models/b2c33d70ba1f4c08a477943b7aed7093?ref=related<br/>
+Sounds: 
+Bones Sound https://opengameart.org/content/bones-2
+Background Music: https://www.youtube.com/watch?v=-zvQoPyY2XE
+Laughing Sound:
+Zombie Sound 3:
+
+
+
 
 Rats:
 Cockroach:
