@@ -13659,6 +13659,8 @@ MonoBehaviour:
   audioOnPuzzleSolved: {fileID: 1590787071}
   audioOnPuzzleWrong: {fileID: 1590787070}
   RoomLights: {fileID: 1760720001}
+  timeToWaitBeforeOpeeningDoor: 10
+  doorToOpenTag: BedroomDoor
 --- !u!82 &1590787070
 AudioSource:
   m_ObjectHideFlags: 0

@@ -19,6 +19,10 @@ public class BabyBlockPuzzle : MonoBehaviour {
         {"D",  false},
         {"E",  false},
     };
+
+    public float timeToWaitBeforeOpeeningDoor = 5.0f;
+    public string doorToOpenTag = "BedroomDoor";
+
     public bool isPuzzleSolved { get; private set; }
 
     private void Start() {
@@ -38,7 +42,7 @@ public class BabyBlockPuzzle : MonoBehaviour {
                     Debug.Log("BabyBlock puzzle solved!");
 
                     //Trigger Puzzle Solved Sequence
-                    TriggerPuzzleSolvedSequence();
+                    StartCoroutine(TriggerPuzzleSolvedSequence());
                 }
                 else {
                     Debug.Log("BabyBlock puzzle remains unsolved!");
@@ -81,7 +85,7 @@ public class BabyBlockPuzzle : MonoBehaviour {
         return true;
     }
 
-    public void TriggerPuzzleSolvedSequence() {
+    public IEnumerator TriggerPuzzleSolvedSequence() {
         if (ThunderLights == null) {
             foreach (FlickerLights item in FindObjectsOfType<FlickerLights>()) {
                 if (item.name.Contains("Thunder")) {
@@ -101,6 +105,26 @@ public class BabyBlockPuzzle : MonoBehaviour {
 
         if(audioOnPuzzleSolved != null) {
             audioOnPuzzleSolved.Play();
+        }
+
+        yield return new WaitForSeconds(timeToWaitBeforeOpeeningDoor);
+
+        GameObject doorObject = GameObject.FindGameObjectWithTag(doorToOpenTag);
+        Debug.Log("DoorObject: " + doorObject);
+        if(doorObject != null) {
+            DoorOpen doorOpenScript = doorObject.GetComponent<DoorOpen>();
+            Debug.Log("DoorOpenScript: " + doorOpenScript);
+            if (doorOpenScript != null) {
+                doorOpenScript.soundPlayed = false;
+                doorOpenScript.rotationDegreesAmount = 180.0f;
+                doorOpenScript.openDoor = true;
+                doorOpenScript.doorOpened = false;
+            }
+
+            GameObject kitchenDoor = GameObject.FindGameObjectWithTag("SKitchenDoor");
+            if(kitchenDoor != null) {
+                kitchenDoor.SetActive(false);
+            }
         }
     }
 }
