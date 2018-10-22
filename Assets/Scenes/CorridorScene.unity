@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.042375173, g: 0.052181132, b: 0.085207835, a: 1}
+  m_IndirectSpecularColor: {r: 0.12731749, g: 0.13414757, b: 0.1210787, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -2838,6 +2838,7 @@ MonoBehaviour:
   EventToLoadSceneOn: 0
   SceneToUnload: 3
   EventToUnloadSceneOn: 0
+  locked: 0
   LoadSceneOnStartup: 0
   recenterScript: {fileID: 0}
   SceneLoaded: 0
@@ -2856,8 +2857,8 @@ MonoBehaviour:
   NameOfColliderToTest: HeadsetCollider
   doorToCloseTag: CellarDoor
   doorToOpenTag: KitchenDoor
-  rotationDegreesPerSecond: 45
-  rotationDegreesAmount: 180
+  rotationDegreesPerSecond: 13
+  rotationDegreesAmount: 90
 --- !u!65 &307302469
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -3063,7 +3064,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 4856906099474274, guid: 27edac8249b589c43b0f1ed822a98d39, type: 2}
       propertyPath: m_LocalRotation.y
-      value: 1
+      value: 0.7071068
       objectReference: {fileID: 0}
     - target: {fileID: 4856906099474274, guid: 27edac8249b589c43b0f1ed822a98d39, type: 2}
       propertyPath: m_LocalRotation.z
@@ -3071,7 +3072,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 4856906099474274, guid: 27edac8249b589c43b0f1ed822a98d39, type: 2}
       propertyPath: m_LocalRotation.w
-      value: 0
+      value: 0.7071068
       objectReference: {fileID: 0}
     - target: {fileID: 4856906099474274, guid: 27edac8249b589c43b0f1ed822a98d39, type: 2}
       propertyPath: m_RootOrder
@@ -3079,7 +3080,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 4856906099474274, guid: 27edac8249b589c43b0f1ed822a98d39, type: 2}
       propertyPath: m_LocalEulerAnglesHint.y
-      value: 180
+      value: 90
       objectReference: {fileID: 0}
     - target: {fileID: 1016089909842024, guid: 27edac8249b589c43b0f1ed822a98d39, type: 2}
       propertyPath: m_Name
@@ -3122,14 +3123,15 @@ MonoBehaviour:
   m_GameObject: {fileID: 727204490}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a854b6898771e09429710907b98586e3, type: 3}
+  m_Script: {fileID: 11500000, guid: 45382e4f8ddb9f64ba6496a33005ef55, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  rotationDegreesPerSecond: 13
+  rotationDegreesAmount: 90
+  audioSource: {fileID: 1785524618}
+  soundPlayed: 0
+  doorOpened: 0
   openDoor: 0
-  objectsInteractedWith: []
-  rotationDegreesPerSecond: 20
-  rotationDegreesAmount: 120
-  audioSource: {fileID: 0}
 --- !u!1 &764077211
 GameObject:
   m_ObjectHideFlags: 0
@@ -10255,6 +10257,7 @@ MonoBehaviour:
   EventToLoadSceneOn: 0
   SceneToUnload: 1
   EventToUnloadSceneOn: 0
+  locked: 0
   LoadSceneOnStartup: 0
   recenterScript: {fileID: 0}
   SceneLoaded: 0

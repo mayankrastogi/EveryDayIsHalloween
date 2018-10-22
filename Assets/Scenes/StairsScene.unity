@@ -118,7 +118,7 @@ Mesh:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
-  m_Name: pb_Mesh57600
+  m_Name: pb_Mesh235178
   serializedVersion: 9
   m_SubMeshes:
   - serializedVersion: 2
@@ -268,6 +268,86 @@ Mesh:
   m_MeshMetrics[0]: 1
   m_MeshMetrics[1]: 1
   m_MeshOptimized: 0
+--- !u!1 &178495072
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 178495073}
+  - component: {fileID: 178495076}
+  - component: {fileID: 178495075}
+  - component: {fileID: 178495074}
+  m_Layer: 0
+  m_Name: BedroomSceneLoadTrigger
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &178495073
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 178495072}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -1.127, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 660426401}
+  m_RootOrder: 13
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &178495074
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 178495072}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5b24029486378aa4cbfebc70530d9e91, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  NameOfColliderToTest: HeadsetCollider
+  doorToCloseTag: SKitchenDoor
+  doorToOpenTag: BedroomDoor
+  rotationDegreesPerSecond: 45
+  rotationDegreesAmount: 180
+--- !u!114 &178495075
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 178495072}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6bda244a6782c2b4daa099c29c099174, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  NameOfColliderToTest: HeadsetCollider
+  SceneToLoad: 6
+  EventToLoadSceneOn: 0
+  SceneToUnload: 4
+  EventToUnloadSceneOn: 0
+  locked: 0
+  LoadSceneOnStartup: 0
+  recenterScript: {fileID: 0}
+  SceneLoaded: 0
+  SceneUnloaded: 0
+--- !u!65 &178495076
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 178495072}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.5036718, y: 2.4032803, z: 0.2462771}
+  m_Center: {x: -0.08354369, y: 1.2448637, z: -0.51266754}
 --- !u!1 &207100257
 GameObject:
   m_ObjectHideFlags: 0
@@ -3044,7 +3124,7 @@ Mesh:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
-  m_Name: pb_Mesh57572
+  m_Name: pb_Mesh128970
   serializedVersion: 9
   m_SubMeshes:
   - serializedVersion: 2
@@ -3294,9 +3374,11 @@ Transform:
   - {fileID: 1557445645}
   - {fileID: 1801947496}
   - {fileID: 950127152}
+  - {fileID: 1606941947}
   - {fileID: 1607919899}
   - {fileID: 1420988322}
   - {fileID: 1401735548}
+  - {fileID: 178495073}
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -3545,6 +3627,10 @@ Prefab:
       propertyPath: m_LocalScale.z
       value: 0.8000014
       objectReference: {fileID: 0}
+    - target: {fileID: 1016089909842024, guid: 27edac8249b589c43b0f1ed822a98d39, type: 2}
+      propertyPath: m_TagString
+      value: BedroomDoor
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 27edac8249b589c43b0f1ed822a98d39, type: 2}
   m_IsPrefabAsset: 0
@@ -3570,8 +3656,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   rotationDegreesPerSecond: 20
-  rotationDegreesAmount: 120
-  audioSource: {fileID: 0}
+  rotationDegreesAmount: 90
+  audioSource: {fileID: 1401735549}
   soundPlayed: 0
   doorOpened: 0
   openDoor: 0
@@ -3739,7 +3825,7 @@ Prefab:
     m_Modifications:
     - target: {fileID: 4882228989513288, guid: ba66af263337a1346b49a82caf3ab42b, type: 2}
       propertyPath: m_LocalPosition.x
-      value: -0.8939413
+      value: -0.89
       objectReference: {fileID: 0}
     - target: {fileID: 4882228989513288, guid: ba66af263337a1346b49a82caf3ab42b, type: 2}
       propertyPath: m_LocalPosition.y
@@ -4132,7 +4218,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 660426401}
-  m_RootOrder: 11
+  m_RootOrder: 12
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!82 &1401735549
 AudioSource:
@@ -4257,7 +4343,7 @@ Transform:
   - {fileID: 294535348}
   - {fileID: 595029383}
   m_Father: {fileID: 660426401}
-  m_RootOrder: 10
+  m_RootOrder: 11
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1457838249
 GameObject:
@@ -6904,7 +6990,7 @@ Mesh:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
-  m_Name: pb_Mesh-74792
+  m_Name: pb_Mesh-509260
   serializedVersion: 9
   m_SubMeshes:
   - serializedVersion: 2
@@ -7136,6 +7222,98 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 4788312103412162, guid: 071d021fe26c47849b81389abb42ed44,
     type: 2}
   m_PrefabInternal: {fileID: 1557445644}
+--- !u!1001 &1606941946
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 660426401}
+    m_Modifications:
+    - target: {fileID: 4856906099474274, guid: 27edac8249b589c43b0f1ed822a98d39, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: -0.85
+      objectReference: {fileID: 0}
+    - target: {fileID: 4856906099474274, guid: 27edac8249b589c43b0f1ed822a98d39, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: 0.06
+      objectReference: {fileID: 0}
+    - target: {fileID: 4856906099474274, guid: 27edac8249b589c43b0f1ed822a98d39, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: 0.6715434
+      objectReference: {fileID: 0}
+    - target: {fileID: 4856906099474274, guid: 27edac8249b589c43b0f1ed822a98d39, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4856906099474274, guid: 27edac8249b589c43b0f1ed822a98d39, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: 0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 4856906099474274, guid: 27edac8249b589c43b0f1ed822a98d39, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4856906099474274, guid: 27edac8249b589c43b0f1ed822a98d39, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: 0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 4856906099474274, guid: 27edac8249b589c43b0f1ed822a98d39, type: 2}
+      propertyPath: m_RootOrder
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 4856906099474274, guid: 27edac8249b589c43b0f1ed822a98d39, type: 2}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 90
+      objectReference: {fileID: 0}
+    - target: {fileID: 1016089909842024, guid: 27edac8249b589c43b0f1ed822a98d39, type: 2}
+      propertyPath: m_Name
+      value: KitchenDoorDummy
+      objectReference: {fileID: 0}
+    - target: {fileID: 4856906099474274, guid: 27edac8249b589c43b0f1ed822a98d39, type: 2}
+      propertyPath: m_LocalScale.x
+      value: 0.8
+      objectReference: {fileID: 0}
+    - target: {fileID: 4856906099474274, guid: 27edac8249b589c43b0f1ed822a98d39, type: 2}
+      propertyPath: m_LocalScale.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4856906099474274, guid: 27edac8249b589c43b0f1ed822a98d39, type: 2}
+      propertyPath: m_LocalScale.z
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1016089909842024, guid: 27edac8249b589c43b0f1ed822a98d39, type: 2}
+      propertyPath: m_TagString
+      value: Untagged
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 27edac8249b589c43b0f1ed822a98d39, type: 2}
+  m_IsPrefabAsset: 0
+--- !u!4 &1606941947 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 4856906099474274, guid: 27edac8249b589c43b0f1ed822a98d39,
+    type: 2}
+  m_PrefabInternal: {fileID: 1606941946}
+--- !u!1 &1606941948 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1016089909842024, guid: 27edac8249b589c43b0f1ed822a98d39,
+    type: 2}
+  m_PrefabInternal: {fileID: 1606941946}
+--- !u!114 &1606941949
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1606941948}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a854b6898771e09429710907b98586e3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  openDoor: 0
+  objectsInteractedWith: []
+  rotationDegreesPerSecond: 13
+  rotationDegreesAmount: 90
+  audioSource: {fileID: 1401735549}
 --- !u!1 &1607919893
 GameObject:
   m_ObjectHideFlags: 0
@@ -7517,11 +7695,11 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1607919893}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -1.5, y: 0, z: 1.502}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalPosition: {x: -1.5235, y: 0, z: 1.502}
+  m_LocalScale: {x: 1.2600793, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 660426401}
-  m_RootOrder: 9
+  m_RootOrder: 10
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1801947495
 Prefab:
@@ -7607,14 +7785,14 @@ MonoBehaviour:
   m_GameObject: {fileID: 1801947497}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a854b6898771e09429710907b98586e3, type: 3}
+  m_Script: {fileID: 11500000, guid: 79e9f05d88eafe24587c7c8c6b01b0b0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   openDoor: 0
   objectsInteractedWith: []
-  rotationDegreesPerSecond: 13
+  rotationDegreesPerSecond: 12
   rotationDegreesAmount: 90
-  audioSource: {fileID: 1401735549}
+  audioSource: {fileID: 0}
 --- !u!1001 &1822288749
 Prefab:
   m_ObjectHideFlags: 0
@@ -7857,7 +8035,7 @@ Mesh:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
-  m_Name: pb_Mesh-74774
+  m_Name: pb_Mesh-755998
   serializedVersion: 9
   m_SubMeshes:
   - serializedVersion: 2

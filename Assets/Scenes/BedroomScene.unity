@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.042375173, g: 0.052181132, b: 0.085207835, a: 1}
+  m_IndirectSpecularColor: {r: 0.12731749, g: 0.13414757, b: 0.1210787, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -171,6 +171,64 @@ Transform:
   m_Father: {fileID: 691406569}
   m_RootOrder: 20
   m_LocalEulerAnglesHint: {x: -90, y: 90.00001, z: 0}
+--- !u!1 &11138783
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 11138784}
+  - component: {fileID: 11138786}
+  - component: {fileID: 11138785}
+  m_Layer: 0
+  m_Name: DoorCloseTrigger
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &11138784
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 11138783}
+  m_LocalRotation: {x: 0, y: 0.3525767, z: 0, w: 0.93578297}
+  m_LocalPosition: {x: 0, y: 1.11, z: 0.56}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1425398130}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 0, y: 41.29, z: 0}
+--- !u!114 &11138785
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 11138783}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5b24029486378aa4cbfebc70530d9e91, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  NameOfColliderToTest: HeadsetCollider
+  doorToCloseTag: BedroomDoor
+  doorToOpenTag: 
+  rotationDegreesPerSecond: 45
+  rotationDegreesAmount: 90
+--- !u!65 &11138786
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 11138783}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.7735501, y: 2.091709, z: 1.7459733}
+  m_Center: {x: -0.0031948944, y: -0.059540153, z: 0.10289611}
 --- !u!1 &13100337
 GameObject:
   m_ObjectHideFlags: 0
@@ -12437,6 +12495,7 @@ Transform:
   - {fileID: 1675779246}
   - {fileID: 224322887}
   - {fileID: 749775854}
+  - {fileID: 11138784}
   m_Father: {fileID: 27412327}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
