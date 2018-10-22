@@ -10,6 +10,7 @@ TagManager:
   - LivingRoomDoor
   - CellarDoor
   - KitchenDoor
+  - SKitchenDoor
   layers:
   - Default
   - TransparentFX
