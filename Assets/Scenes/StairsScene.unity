@@ -7792,7 +7792,7 @@ MonoBehaviour:
   objectsInteractedWith: []
   rotationDegreesPerSecond: 12
   rotationDegreesAmount: 90
-  audioSource: {fileID: 0}
+  audioSource: {fileID: 1401735549}
 --- !u!1001 &1822288749
 Prefab:
   m_ObjectHideFlags: 0
