@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class BarDoorOpenCheck : MonoBehaviour {
 
-	public GameObject barDoor;
+	GameObject barDoor;
 	private BarDoorScript script1;
 	public AudioSource audioSource;
 
@@ -14,6 +14,7 @@ public class BarDoorOpenCheck : MonoBehaviour {
 	}
 	// Use this for initialization
 	void Start () {
+		barDoor=GameObject.FindWithTag("CellarDoor");
 		script1=barDoor.GetComponent<BarDoorScript>();
 	}
 	
@@ -24,8 +25,9 @@ public class BarDoorOpenCheck : MonoBehaviour {
 
 	void OnCollisionEnter(Collision col)
 	{	
-		//Debug.Log("name is:" + col.gameObject.name);
+		Debug.Log("name is:" + col.gameObject.name);
 		if(col.gameObject.name.Equals("VRSimulatorCameraRig"))
+		//if(col.gameObject.name.Equals("[VRTK][AUTOGEN][BodyColliderContainer]"))
 		{
 
 			if(!script1.objectsInteractedWith.Contains(this.name))

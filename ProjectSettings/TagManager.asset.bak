@@ -7,8 +7,11 @@ TagManager:
   - WorldContainer
   - ClimbableEnvironment
   - BabyBlock
+<<<<<<< HEAD
   - LivingRoomDoor
+=======
   - CellarDoor
+>>>>>>> 242d7979544521851c92650f093c9c76eb25fd62
   layers:
   - Default
   - TransparentFX
