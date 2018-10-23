@@ -7,5 +7,5 @@ Every Day is Halloween is a Virtual Reality Funhouse App made using Unity and VR
 2. Mayank Rastogi
 
 ### Website
-http://mrasto3.people.uic.edu/cs491/projects/02
+https://mrasto3.people.uic.edu/cs491/projects/02
 
